@@ -1,4 +1,5 @@
-const express = require('Express');
+const express = require('express');
+// require express must be lowercase for heroku
 const bodyParser = require("body-parser");
 const mongoose = require('mongoose');
 const cors = require('cors');
